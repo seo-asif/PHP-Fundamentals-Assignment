@@ -38,31 +38,21 @@
                 if (!is_numeric($test1) || !is_numeric($test1) || !is_numeric($test1)) {
                     echo '<span class="warning">Invalid input. Please enter valid number.</span>';
                 } else {
-
                     if ($grade < 40) {
                         printf("Your Avarage score is %.1f <br>and Your Grade is F .", $grade);
-
                     } else if ($grade >= 40 && $grade < 60) {
                         printf("Your Avarage score is %.1f <br>and Your Grade is D .", $grade);
-
-
                     } else if ($grade >= 60 && $grade < 70) {
                         printf("Your Avarage score is %.1f <br>and Your Grade is C .", $grade);
-
-
                     } else if ($grade >= 70 && $grade < 80) {
                         printf("Your Avarage score is %.1f <br>and Your Grade is B .", $grade);
-
-
                     } else if ($grade >= 80) {
                         printf("Your Avarage score is %.1f <br>and Your Grade is A .", $grade);
 
                     } else {
                         echo "Please Give Valid Input.";
                     }
-
                 }
-
             }
             ?>
 

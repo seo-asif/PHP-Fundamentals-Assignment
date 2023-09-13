@@ -12,7 +12,6 @@
 
 <body>
     <div class="container">
-
         <h2>Temperature Conveter</h2>
         <form method="post" action="">
             <input type="text" name="temperature" placeholder="Enter temperature"><br>
@@ -26,7 +25,6 @@
         <div id="result">
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
                 $temperature = trim($_POST["temperature"]);
                 $unit = $_POST["unit"];
                 if (!is_numeric($temperature)) {
@@ -41,11 +39,7 @@
                     } else {
                         echo "Invalid unit selected.";
                     }
-
-
                 }
-
-
             }
 
             ?>

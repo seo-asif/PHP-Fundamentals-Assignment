@@ -26,7 +26,6 @@
         <div id="result">
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
                 $number1 = trim($_POST["number1"]);
                 $number2 = trim($_POST["number2"]);
 
@@ -35,9 +34,7 @@
                 } else {
 
                     echo $number1 == $number2 ? $number1 . " is equal to " . $number2 : ($number1 > $number2 ? $number1 . " is the larger number" : $number2 . " is the larger number");
-
                 }
-
             }
             ?>
 

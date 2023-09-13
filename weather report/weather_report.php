@@ -19,7 +19,6 @@
             <form method="post" action="">
                 <input type="text" name="temperature" placeholder="Enter temperature °C">
                 <button type="submit">Submit</button>
-
             </form>
         </div>
         <div id="result">
@@ -53,12 +52,9 @@
                     } else {
                         echo "You will not survive in this weather";
                     }
-
                 }
-
             }
             ?>
-
         </div>
     </div>
 </body>
