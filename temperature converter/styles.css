@@ -1,15 +1,55 @@
+*{
+box-sizing: border-box;
+}
 body {
-  background-color: antiquewhite;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
+  margin: 50px auto;
+  width: 500px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-  margin: 0 auto;
+h2{
+  color: #007BFF;
+  margin-bottom: 20px;
+}
+input[type="text"], select {
+  width: 80%;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  
+}
+
+span{
+  color: #007BFF;
+  font-weight: 600;
+}
+
+.warning{
+  color: red;
 }
