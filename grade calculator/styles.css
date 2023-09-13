@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 50px auto;
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.head {
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.details {
+  padding: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+span {
+  font-weight: 600;
+}

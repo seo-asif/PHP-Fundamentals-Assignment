@@ -27,7 +27,7 @@
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-                $temperature = $_POST["temperature"];
+                $temperature = trim($_POST["temperature"]);
                 $unit = $_POST["unit"];
                 if (!is_numeric($temperature)) {
                     echo '<span class="warning">Invalid input. Please enter a valid numeric temperature.</span>';
